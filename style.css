@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Sevillana&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Exo+2:ital,wght@0,600;1,300&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* navbar-designs */
+.navbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	padding:10px;
+	background-color: #284d53;
+}
+.navbar a{
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	margin: auto 20px;
+}
+
+
+.name {
+	font-family: 'Bungee Spice', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin: 10px;
+}
+.description{
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 18px;
+	margin: 10px;
+}
+.header-section{
+	background-color: #c2c2c2;
+}
+
+/* dp image design */
+.dp-image{
+	width: 300px;
+	height: auto;
+	border-radius: 50%;
+	aspect-ratio: 1;
+	object-fit: cover;
+	margin: auto 50px;
+}
+/* top-section */
+.top-section-table{
+	display: flex;
+	justify-content: center;
+}
+img {
+    border-radius: 40px;
+}
+/* about-me */
+.about{
+	background-color: #c2c2c2;
+	padding: 40px;
+	font-weight: 100;
+}
+.about-me-heading{
+	text-align: center;
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	margin: 20px;
+	
+}
+.about-me-paragraph{
+	padding: 20px;
+	margin: 20px;
+	font-size: 18px;
+}
+
+/* projects */
+.projects{
+		background-color: #c2c2c2;
+		padding: 40px;
+		font-weight: 100;
+}
+.project-heading{
+	text-align: center;
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	margin: 20px;
+}
+.project-number{
+	padding: 10px;
+	font-weight: bold;
+}
+.project-title{
+	font-family: 'Courier New', Courier, monospace;
+}
+.project-description{
+	padding: 20px;
+	font-size: 16px;
+}
+
+/* work experience */
+#we-section{
+	background-color: #c2c2c2;
+	padding: 40px;
+	font-weight: 100;
+}
+.we-heading{
+	text-align: center;
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	margin: 20px;
+}
+.work-experience{
+	border: 2px solid white;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto ;
+}
+
+/* skills-section */
+#skills-section{
+	background-color: #c2c2c2;
+	padding: 40px;
+	font-weight: 100;
+}
+.skills-heading{
+	text-align: center;
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	margin: 20px;
+}
+.skills-showcase{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* footer */
+.footer{
+	background-color: #284d53;
+	text-align: center;
+	padding: 10px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	display: block;
+	margin-top:10px;
+}
+.footer-heading{
+	color: white;
+}
+
+
+/* about-page  css*/
+.about-page-body{
+	background-color: #c2c2c2;
+}
+.myhobbies-heading{
+	text-align: center;
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	margin: 10px;
+	color: white;
+}
+.myhobbies-info{
+	text-align: center;
+}
+.about-page-books{
+	text-align: center;
+	font-family: 'Bungee Spice', sans-serif;
+	font-family: 'Exo 2', sans-serif;
+	margin: 10px;
+	color: white;
+}
+.myhobbies-book-desc{
+	text-align: center;
+}
+.back{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	}
